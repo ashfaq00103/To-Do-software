@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        
+        
+        input[type=number] {
+          -moz-appearance: textfield;
+        }
+        </style>
+        
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="logcss.css" media="screen">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <script src="logjs.js"></script>
+    
+ 
+      <img  id="imagesize" src="Todo.jpg">
+    <div id="flx">
+    <div id="signinword">
+    <b>Sign In</b>
+    </div>
+ 
+
+    <div id="email">
+      <i class="fas fa-mobile-alt p-icon"></i> <input onkeydown="opaci('ema','phone-error','p-error1')" id="ema" type="number" name="mob-num" placeholder="Mobile number"> <i id="phone-error" class="fas fa-exclamation-circle redicon"> </i>
+    </div>
+    <en id="p-error1">Please enter 10 digit number</en>
+    <div>
+      <i class="fas fa-user-lock lock"></i>  <input onkeydown="opaci('password','pass-error','pass-error1')" id="password" type="password" name="pass" placeholder="Password"><i id="pass-error" class="fas fa-exclamation-circle redicon"> </i>
+    </div>
+    <en id="pass-error1">Please enter valid password (min 8 and max 12)</en>
+    <div >
+      <input  onclick="submit()" id="sub" type="submit" name="l_submit" value="Sign In">
+    </div>
+    <p id="para">Don't have an account?</p>
+    <a id="hyplink"  href="signup.html">Sign Up</a>
+  </div>
+</body>
+</html>

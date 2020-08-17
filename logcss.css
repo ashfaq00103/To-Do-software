@@ -1,0 +1,202 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    height:100%;
+    width:100%;
+   font-family: helvetica;
+}
+#imagesize{
+    height:152px;
+    padding-left:4%;
+}
+#signinword{
+    font-size: 200%;
+ 
+    flex: 1;
+    margin-left:47%;
+}
+
+#ema{
+    height:49px;
+    width:25%;
+    border-radius:37px;
+    flex:1;
+    border:1px solid whitesmoke;
+    margin-top:66px;
+    box-shadow:4px 17px 28px 1px lightgray;
+    font-size:25px;
+    padding-left:4%;
+    margin-left:37%;
+    outline:none;
+}
+
+#phone-error{
+    position:absolute;right: 35%;bottom:55.5%;
+    color:red;
+    opacity:0;
+}
+::placeholder{
+    font-size:20px;
+  }
+.p-icon{
+    position:absolute;
+    right:61.3%;
+    bottom:55.5%;
+}
+#p-error1{
+    color:red;
+   
+    position:absolute;
+    bottom:47%;
+    right:45%;
+    opacity:0;
+}
+#password{
+    height:49px;
+    width:26%;
+    border-radius:37px;
+    border:1px solid whitesmoke;
+    margin-top:71px;
+    box-shadow:4px 17px 28px 1px lightgray;
+    font-size:25px;
+    padding-left:4%;
+    margin-left:36.5%;
+    outline:none;
+}
+.lock{
+  
+    position:absolute;
+    bottom:37%;
+    right:61%;
+}
+#pass-error1{
+    color:red;
+    position:absolute;
+    bottom:29%;
+    right:35%;
+    opacity:0;
+}
+#pass-error{
+    position:absolute;right: 35%;bottom:37%;
+    color:red;
+    opacity:0;
+}
+#sub{
+    height:49px;
+    width:30%;
+    border-radius:37px;
+    flex:1;
+    border:1px solid whitesmoke;
+    margin-top:71px;
+    box-shadow:4px 17px 28px 1px lightgray;
+    font-size:25px;
+    margin-left:36.5%;
+    outline:none;
+    background-image: linear-gradient(to right, darkviolet,#3f059c);
+    color:white;
+    cursor:pointer;
+    }
+    #para{
+        color:royalblue;
+        margin-left:44%;
+        margin-top:56px;
+    }
+    #hyplink{
+        color:purple;
+        position:absolute;
+        right:39%;
+        bottom:5%;
+    }
+
+@media only screen and (max-width: 700px) and(max-width:1199){
+
+    #imagesize{
+        height: 139px;
+        padding-left: 9%;
+    }
+    #ema {
+        height: 49px;
+        width: 35%;
+        border-radius: 37px;
+        flex: 1;
+        border: 1px solid whitesmoke;
+        margin-top: 66px;
+        box-shadow: 4px 17px 28px 1px lightgrey;
+        font-size: 25px;
+        padding-left: 5%;
+        margin-left: 28%;
+        outline: none;
+    }
+    .p-icon {
+        position: absolute;
+        right: 69.3%;
+        bottom: 414px;
+    }
+    #phone-error {
+        position: absolute;
+        right: 34%;
+        bottom: 414px;
+        color: red;
+        opacity: 0;
+    }
+    #p-error1 {
+        color: red;
+        position: absolute;
+        bottom: 357px;
+        right: 36%;
+        opacity: 0;
+    }
+    #password {
+        height: 49px;
+        width: 36%;
+        border-radius: 37px;
+        border: 1px solid whitesmoke;
+        margin-top: 71px;
+        box-shadow: 4px 17px 28px 1px lightgrey;
+        font-size: 25px;
+        padding-left: 5%;
+        margin-left: 27.5%;
+        outline: none;
+    }
+    .lock {
+        position: absolute;
+        bottom: 292px;
+        right: 69%;
+    }
+    #pass-error {
+        position: absolute;
+        right: 34%;
+        bottom: 290px;
+        color: red;
+        opacity: 0;
+    }
+    #sub {
+        height: 49px;
+        width: 42%;
+        border-radius: 37px;
+        flex: 1;
+        border: 1px solid whitesmoke;
+        margin-top: 71px;
+        box-shadow: 4px 17px 28px 1px lightgrey;
+        font-size: 25px;
+        margin-left: 27.5%;
+        outline: none;
+        background-image: linear-gradient(to right, darkviolet,#3f059c);
+        color: white;
+    }
+    #pass-error1 {
+        color: red;
+        position: absolute;
+        bottom: 229px;
+        right: 31%;
+        opacity: 0;
+    }
+    #para {
+        color: royalblue;
+        margin-left: 34%;
+        margin-top: 70px;
+    }
+}
